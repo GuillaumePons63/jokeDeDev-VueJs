@@ -1,19 +1,10 @@
 <script setup>
-
-
+  import FormInput from './components/FormInput.vue'
 </script>
 
-<template class="container">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        Salut les coquinoux
-      </div>
-
-    </div>
-  </div>
-
+<template>
+  <FormInput></FormInput> 
 </template>
 
-<style scoped>
+<style>
 </style>
